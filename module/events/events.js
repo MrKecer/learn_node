@@ -5,6 +5,7 @@ const logger = new Logger();
 //     console.log("Bağlatı Kuruldu");
 // })
 logger.on("connection", function (args) {
+    //başla
     console.log(args);
 })
 // emitter.emit("logout", { id: 1, message: "hi" })
