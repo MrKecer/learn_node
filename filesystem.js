@@ -28,7 +28,7 @@ fs.appendFile("deneme.txt", "Hello World...", function (error) {
         console.log(error);
     }
 })
-//sil
+//delete
 fs.unlink("deneme.txt", function () {
 
 });
