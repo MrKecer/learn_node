@@ -1,0 +1,30 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "req_res.js",
+  "scripts": {
+    "start": "nodemon express/express.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrKecer/learn_node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrKecer/learn_node/issues"
+  },
+  "homepage": "https://github.com/MrKecer/learn_node#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jquery": "^3.6.3",
+    "underscore": "^1.13.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "webpack": "^5.75.0"
+  }
+}
